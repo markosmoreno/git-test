@@ -43,10 +43,12 @@
             <option value="Pack5">Hamburguesa + papas</option>
             <option value="Pack6">Hamburguesa + papas + gaseosa</option>
         </optgroup>
-    </select>`^
+    </select>
+</form>
     <br>
     <br>
     <br>
+<form name="toppings-checkbox" class="toppings-checkbox">
     <label for="topping_tomate">
         Tomates
         <input type="checkbox" id="topping_tomate" name="topping" value="Tomates">
@@ -101,15 +103,17 @@
         Pan de Papa
         <input type="radio" id="topping_pan_papa" name="pan_topping" value="pan_papa">
     </label>
+</form>
     <br>
     <br>
     <br>
+<form>
     <label for="select_pago">Forma de pago</label>
     <select name="pago" id="forma-de-pago"> 
         <optgroup label="Tarjeta de Debito">
-          <option value="opcion1">Cordobesa</option> 
-          <option value="opcion2">Banco Macro</option>
-          <option value="opcion3">Banco Santander</option>
+          <option class="opciones" value="opcion1">Cordobesa</option> 
+          <option class="opciones" value="opcion2">Banco Macro</option>
+          <option class="opciones" value="opcion3">Banco Santander</option>
         </optgroup>
         <optgroup label="Tarjeta de Credito">
           <option value="opcion4">Visa Macro</option>
