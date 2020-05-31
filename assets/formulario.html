@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+   <title>Formulario</title>
+   <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+<!--Comienzo de formulario de pedido de hamburguesas-->
+<form>
+    <label for="campo_nombre">Nombre</label>
+    <input type="text" id="campo_nombre" name="nombre" required placeholder="Ej: Marcos">
+    <!--text: Entrada tipo texto-->
+    <label for="campo_apellido">Apellido</label>
+    <input type="text" id="campo_apellido" name="apellido"  required placeholder="Ej: Moreno">
+    <!--text: Entrada tipo texto-->
+    <br>
+    <br>
+    <label for="campo_correo">E-mail"</label>
+    <input type="email" id="campo_correo" name="E-mail" placeholder="Ej: marcos@moreno.com">
+    <!--email: Entrada de dato tipo e-mail-->
+    <label for="telefono">Numero</label>
+    <input type="tel" maxlength="12" id="campo_telefono" name="Phone" required placeholder="Ej: 351-0000000">
+    <!--tel: Entrada de numero telefonico-->
+    <label for="campo_direccion">Direccion</label>
+    <input type="text" id="campo_direccion" name="direccion" required placeholder="Ej: Avenida Siempreviva 742">
+    <br>
+    <br>
+
+    <br>
+    <label for="select_pack">Pack</label>
+    <select href="Pack" name="pack" id="select_pack"> <!--select: nos permite seleccionar una opcion-->
+        <optgroup label="Ternera"> <!--optagroup: agrupa opciones-->
+          <option value="Pack1">Hamburguesa + papas</option> <!--option: opcion que hace referencia a la etiqueta select-->
+          <option value="Pack2">Hamburguesa + papas + gaseosa</option>
+        </optgroup>
+        <optgroup label="Cerdo">
+          <option value="Pack3">Hamburguesa + papas</option>
+          <option value="Pack4">Hamburguesa + papas + gaseosa</option>
+        </optgroup>
+        <optgroup label="Vegetariana">
+            <option value="Pack5">Hamburguesa + papas</option>
+            <option value="Pack6">Hamburguesa + papas + gaseosa</option>
+        </optgroup>
+    </select>
+</form>
+    <br>
+    <br>
+    <br>
+<form name="toppings-checkbox" class="toppings-checkbox">
+    <label for="topping_tomate">
+        Tomates
+        <input type="checkbox" id="topping_tomate" name="topping" value="Tomates">
+    </label>
+    <label for="topping_lechuga">
+        Lechuga
+        <input type="checkbox" id="topping_lechuga" name="topping" value="Lechuga">
+    </label>
+    <label for="topping_bacon">
+        Bacon
+        <input type="checkbox" id="topping_bacon" name="topping" value="bacon">
+    </label>
+    <br>
+    <br>
+    <label for="topping_mayonesa">
+        Mayonesa
+        <input type="checkbox" id="topping_mayonesa" name="topping" value="mayonesa">
+    </label><label for="topping_mostaza">
+        Mostaza
+        <input type="checkbox" id="topping_mostaza" name="topping" value="mostaza">
+    </label><label for="topping_ketchup">
+        Ketchup
+        <input type="checkbox" id="topping_ketchup" name="topping" value="ketchup">
+    </label>
+    <br>
+    <br>
+    <label for="topping_queso_tybo">
+        Queso Tybo
+        <input type="radio" id="topping_queso_tybo" name="queso_topping" value="queso_tybo">
+    </label>
+    <label for="topping_queso_cheddar">
+        Queso Cheddar
+        <input type="radio" id="topping_queso_cheddar" name="queso_topping" value="queso_cheddar">
+    </label>
+    <br>
+    <br>
+    <label for="topping_salsa_picante">
+        Salsa Picante
+        <input type="radio" id="topping_salsa_picante" name="topping" value="salsa_picante">
+    </label>
+    <label for="topping_salsa_suave">
+        Salsa Suave
+        <input type="radio" id="topping_salsa_suave" name="topping" value="salsa_suave">
+    </label>
+    <br>
+    <br>
+    <label for="topping_pan_tradicional">
+        Pan Tradicional
+        <input type="radio" id="topping_pan_tradicional" name="pan_topping" value="pan_tradicional">
+    </label>
+    <label for="topping_pan_papa">
+        Pan de Papa
+        <input type="radio" id="topping_pan_papa" name="pan_topping" value="pan_papa">
+    </label>
+</form>
+    <br>
+    <br>
+    <br>
+<form>
+    <label for="select_pago">Forma de pago</label>
+    <select name="pago" id="forma-de-pago"> 
+        <optgroup label="Tarjeta de Debito">
+          <option class="opciones" value="opcion1">Cordobesa</option> 
+          <option class="opciones" value="opcion2">Banco Macro</option>
+          <option class="opciones" value="opcion3">Banco Santander</option>
+        </optgroup>
+        <optgroup label="Tarjeta de Credito">
+          <option value="opcion4">Visa Macro</option>
+          <option value="opcion5">Visa Santander</option>
+          <option value="opcion6">Visa Galicia</option>
+          <option value="opcion7">Naranja Visa</option>
+        </optgroup>
+</form>
+    
+    </select>
+    <br>
+    <br>
+    <br>
+      <input type="submit" value="CONFIRMAR PEDIDO">
+      <input type="reset" value="BORRAR PEDIDO">
+      <br>
+      <br>
+      <br>
+      <form>
+        <button>Enviar</button>
+      </form>
+
+</body>
+</html>
