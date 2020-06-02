@@ -1,0 +1,47 @@
+nav{
+    background: rgb(251,246,63);
+background: radial-gradient(circle, rgba(251,246,63,0.9780287114845938) 0%, rgba(247,41,23,1) 100%);
+    display: run-in;
+    text-align-last: center;
+    margin:black 60px;
+    color:whitesmoke;
+    font: helvetica;
+    padding: 15px;
+    border: black ;
+}
+main{
+    background: rgb(9,0,15);
+    background: radial-gradient(circle, rgba(9,0,15,1) 0%, rgba(212,46,34,1) 50%, rgba(198,186,7,1) 100%);
+    color:whitesmoke;
+    text-align-last:center ;
+    font:arial;
+    display: run-in;
+}
+footer{
+    background: rgb(63,251,107);
+    background: radial-gradient(circle, rgba(63,251,107,1) 0%, rgba(247,71,23,1) 100%);
+    color:whitesmoke;
+    display: run-in;
+}
+.daikiri-frutilla{
+    text-align-last: left;
+}
+.fernet{
+    text-align-last:left ;
+}
+.campari-pomelo{
+    text-align-last: left;
+}
+.campari-naranja{
+    text-align-last: left;
+}
+footer{
+    text-align-last: right;
+}
+h3{
+    text-align-last: left;
+    color: black;
+}
+audio{
+    background-color: yellow;
+}
