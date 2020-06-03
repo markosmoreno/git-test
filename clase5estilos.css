@@ -1,9 +1,13 @@
 nav{
     background: rgb(251,246,63);
 background: radial-gradient(circle, rgba(251,246,63,0.9780287114845938) 0%, rgba(247,41,23,1) 100%);
-    display: run-in;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 20vh;
     text-align-last: center;
-    margin:black 60px;
+    margin:10px;
     color:whitesmoke;
     font: helvetica;
     padding: 15px;
@@ -22,6 +26,8 @@ footer{
     background: radial-gradient(circle, rgba(63,251,107,1) 0%, rgba(247,71,23,1) 100%);
     color:whitesmoke;
     display: run-in;
+    width: 10px;
+    border: black  ;
 }
 .daikiri-frutilla{
     text-align-last: left;

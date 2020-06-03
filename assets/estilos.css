@@ -11,5 +11,6 @@
 }
 form[name="toppings-checkbox"]{
     background-color: cyan;
+    margin: 15mp;
 
 }
