@@ -12,42 +12,57 @@ background: radial-gradient(circle, rgba(251,246,63,0.9780287114845938) 0%, rgba
     font: helvetica;
     padding: 15px;
     border: black ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 main{
     background: rgb(9,0,15);
     background: radial-gradient(circle, rgba(9,0,15,1) 0%, rgba(212,46,34,1) 50%, rgba(198,186,7,1) 100%);
     color:whitesmoke;
     text-align-last:center ;
-    font:arial;
     display: run-in;
+    font-family: Arial, Helvetica, sans-serif;
 }
 footer{
-    background: rgb(63,251,107);
-    background: radial-gradient(circle, rgba(63,251,107,1) 0%, rgba(247,71,23,1) 100%);
+    background: rgb(9,0,15);
+    background: radial-gradient(circle, rgba(9,0,15,1) 0%, rgba(212,46,34,1) 50%, rgba(198,186,7,1) 100%);
     color:whitesmoke;
     display: run-in;
-    width: 10px;
-    border: black  ;
-}
-.daikiri-frutilla{
-    text-align-last: left;
-}
-.fernet{
-    text-align-last:left ;
-}
-.campari-pomelo{
-    text-align-last: left;
-}
-.campari-naranja{
-    text-align-last: left;
-}
-footer{
+    border-color: black;
     text-align-last: right;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 h3{
     text-align-last: left;
     color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 audio{
     background-color: yellow;
+}
+p, li{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    line-height: 120%;
+    width: 350px;
+}
+ol{
+    width: 350px;
+}
+.instrucciones{
+    display: inline-block;
+    width: 500px;
+    height: 215px;
+    text-align-last: left;
+}
+.ingredientes{
+    display: inline-block;
+    width: 500px;
+    height: 215px;
+    text-align-last: left;
+}
+.fernet{
+    text-align-last: center;
 }
